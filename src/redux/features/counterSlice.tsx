@@ -6,7 +6,7 @@ type TCounterState = {
 };
 
 const initialState: TCounterState = {
-  count: 5,
+  count: 0,
 };
 
 export const counterSlice = createSlice({
